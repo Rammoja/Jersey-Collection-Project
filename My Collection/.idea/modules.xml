@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/My Collection.iml" filepath="$PROJECT_DIR$/.idea/modules/My Collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/My_Collection.iml" filepath="$PROJECT_DIR$/.idea/modules/My_Collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/My_Collection_main.iml" filepath="$PROJECT_DIR$/.idea/modules/My_Collection_main.iml" group="My_Collection" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/My_Collection_test.iml" filepath="$PROJECT_DIR$/.idea/modules/My_Collection_test.iml" group="My_Collection" />
+    </modules>
+  </component>
+</project>
