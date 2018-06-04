@@ -17,7 +17,14 @@ public class Collection {
         this.items.add(item);
     }
 
-    private ArrayList<Item> TotalCostOfCollection(){
-        return this.items;
+    public double itemCollectionCost() {
+        double collectionCost = 0;
+        for (Item item : items){
+            collectionCost += item.getBuying();
+        }
+        return collectionCost;
     }
+
+
+
 }

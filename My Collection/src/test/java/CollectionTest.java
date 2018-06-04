@@ -32,8 +32,10 @@ public class CollectionTest {
     }
 
     @Test
-    public void getTotalCostOfCollection(){
-        assertEquals(100.00, collection.itemCollectionCount(),0.01);
+    public void getItemCollectionCost(){
+        collection.addToCollection(item);
+        collection.addToCollection(item1);
+        assertEquals(100.00, collection.itemCollectionCost(),0.01);
     }
 
 
