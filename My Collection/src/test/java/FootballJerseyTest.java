@@ -9,13 +9,13 @@ public class FootballJerseyTest {
 
     @Before
     public void before(){
-        footballJersey = new FootballJersey("Jersey", 50.00, 5.00, 55.00, 05, 2013, "Scotland");
+        footballJersey = new FootballJersey("Football Jersey", 50.00, 5.00, 55.00, 05, 2013, "Scotland");
 
     }
 
     @Test
     public void hasItemType(){
-        assertEquals( "Jersey", footballJersey.getItemType());
+        assertEquals( "Football Jersey", footballJersey.getItemType());
     }
 
     @Test

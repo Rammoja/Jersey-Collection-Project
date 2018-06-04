@@ -1,15 +1,21 @@
+import com.sun.tools.javac.jvm.Items;
+
 import java.util.ArrayList;
 
 public class Collection {
 
-    private ArrayList<Item> item;
+    private ArrayList<Item> items;
 
     public Collection(){
-        this.item = new ArrayList<Item>();
+        this.items = new ArrayList<Item>();
     }
 
 
     public int itemCollectionCount() {
-        return this.item.size();
+        return this.items.size();
+    }
+
+    public void addToCollection(Item item) {
+        this.items.add(item);
     }
 }
