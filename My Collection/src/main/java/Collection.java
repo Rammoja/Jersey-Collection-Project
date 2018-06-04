@@ -4,6 +4,7 @@ public class Collection {
 
     private ArrayList<Item> items;
 
+
     public Collection(){
         this.items = new ArrayList<Item>();
     }
@@ -17,7 +18,7 @@ public class Collection {
         this.items.add(item);
     }
 
-    public double itemCollectionCost() {
+    public double CollectionCost() {
         double collectionCost = 0;
         for (Item item : items){
             collectionCost += item.getBuying();
@@ -26,5 +27,11 @@ public class Collection {
     }
 
 
+    public int itemYear(Item item) {
+        return item.getYear();
+    }
 
+    public int itemMonth(Item item) {
+        return item.getMonth();
+    }
 }

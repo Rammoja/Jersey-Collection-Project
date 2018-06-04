@@ -2,6 +2,9 @@ import com.sun.tools.javac.jvm.Items;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+
 import static org.junit.Assert.assertEquals;
 
 public class CollectionTest {
@@ -32,13 +35,20 @@ public class CollectionTest {
     }
 
     @Test
-    public void getItemCollectionCost(){
+    public void getCollectionCost(){
         collection.addToCollection(item);
         collection.addToCollection(item1);
-        assertEquals(100.00, collection.itemCollectionCost(),0.01);
+        assertEquals(100.00, collection.CollectionCost(),0.01);
     }
 
+    @Test
+    public void getYearOfItem(){
+        assertEquals(2015, collection.itemYear(item1));
+    }
 
-
+    @Test
+    public void getMonthOfItem(){
+        assertEquals(02, collection.itemMonth(item1));
+    }
 
 }
