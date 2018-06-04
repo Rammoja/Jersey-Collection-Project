@@ -105,8 +105,8 @@
       <file leaf-file-name="CollectionTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/CollectionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+            <state relative-caret-position="418">
+              <caret line="77" column="1" lean-forward="true" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#800#801#0" expanded="true" />
@@ -551,7 +551,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CollectionTest.canAddALLToCollection">
+  <component name="RunManager" selected="JUnit.CollectionTest.getAllCollectionCost">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -613,14 +613,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="FootballJerseyTest.canGetBuyingPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CollectionTest.canAddAllToCollection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="My_Collection_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FootballJerseyTest" />
-      <option name="METHOD_NAME" value="canGetBuyingPrice" />
+      <option name="MAIN_CLASS_NAME" value="CollectionTest" />
+      <option name="METHOD_NAME" value="canAddAllToCollection" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -633,14 +633,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="FootballJerseyTest.canGetShippingPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CollectionTest.getAllCollectionCost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="My_Collection_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FootballJerseyTest" />
-      <option name="METHOD_NAME" value="canGetShippingPrice" />
+      <option name="MAIN_CLASS_NAME" value="CollectionTest" />
+      <option name="METHOD_NAME" value="getAllCollectionCost" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -734,19 +734,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.FootballJerseyTest.canGetBuyingPrice" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FootballJerseyTest.canGetShippingPrice" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.FootballShoeTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.All in My_Collection_test" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CollectionTest.canAddALLToCollection" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.FootballShoeTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.All in My_Collection_test" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CollectionTest.canAddALLToCollection" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CollectionTest.canAddAllToCollection" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CollectionTest.getAllCollectionCost" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CollectionTest.canAddALLToCollection" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All in My_Collection_test" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FootballShoeTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FootballJerseyTest.canGetShippingPrice" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FootballJerseyTest.canGetBuyingPrice" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CollectionTest.getAllCollectionCost" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CollectionTest.canAddAllToCollection" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CollectionTest.canAddALLToCollection" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.All in My_Collection_test" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FootballShoeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -767,20 +767,20 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_My_Collection_test - 2018.06.04 at 15h 10m 33s.xml">
-      <configuration name="All in My_Collection_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_My_Collection_test - 2018.06.04 at 15h 34m 02s.xml">
       <configuration name="All in My_Collection_test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CollectionTest_canAddALLToCollection - 2018.06.04 at 16h 08m 18s.xml">
       <configuration name="CollectionTest.canAddALLToCollection" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionTest_getCollectionCost - 2018.06.04 at 15h 07m 36s.xml">
-      <configuration name="CollectionTest.getCollectionCost" configurationId="JUnit" />
+    <history-entry file="CollectionTest_canAddAllToCollection - 2018.06.04 at 16h 11m 09s.xml">
+      <configuration name="CollectionTest.canAddAllToCollection" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionTest_getMonthOfItem - 2018.06.04 at 14h 58m 59s.xml">
-      <configuration name="CollectionTest.getMonthOfItem" configurationId="JUnit" />
+    <history-entry file="CollectionTest_getAllCollectionCost - 2018.06.04 at 16h 14m 15s.xml">
+      <configuration name="CollectionTest.getAllCollectionCost" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CollectionTest_getAllCollectionCost - 2018.06.04 at 16h 15m 36s.xml">
+      <configuration name="CollectionTest.getAllCollectionCost" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FootballJerseyTest_canGetBuyingPrice - 2018.06.04 at 15h 31m 01s.xml">
       <configuration name="FootballJerseyTest.canGetBuyingPrice" configurationId="JUnit" />
@@ -952,8 +952,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CollectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        <state relative-caret-position="418">
+          <caret line="77" column="1" lean-forward="true" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#800#801#0" expanded="true" />

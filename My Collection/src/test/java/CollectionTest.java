@@ -65,4 +65,14 @@ public class CollectionTest {
         assertEquals(4, collection.itemCollectionCount());
     }
 
+
+    @Test
+    public void getAllCollectionCost(){
+        collection.addToCollection(item);
+        collection.addToCollection(item1);
+        collection.addToCollection(item2);
+        collection.addToCollection(item3);
+        assertEquals(207.00, collection.CollectionCost(),0.01);
+    }
+
 }
