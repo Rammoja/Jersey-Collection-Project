@@ -9,4 +9,7 @@ public class Collection {
     }
 
 
+    public int itemCollectionCount() {
+        return this.item.size();
+    }
 }
