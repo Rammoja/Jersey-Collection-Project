@@ -1,5 +1,3 @@
-import com.sun.tools.javac.jvm.Items;
-
 import java.util.ArrayList;
 
 public class Collection {
@@ -17,5 +15,9 @@ public class Collection {
 
     public void addToCollection(Item item) {
         this.items.add(item);
+    }
+
+    private ArrayList<Item> TotalCostOfCollection(){
+        return this.items;
     }
 }
