@@ -19,12 +19,12 @@ public class FootballJerseyTest {
     }
 
     @Test
-    public void hasBuying(){
+    public void canGetBuyingPrice(){
         assertEquals( 50.00, footballJersey.getBuying(), 0.01);
     }
 
     @Test
-    public void hasShippinh(){
+    public void canGetShippingPrice(){
         assertEquals( 5.00, footballJersey.getShipping(), 0.01);
     }
 
