@@ -12,13 +12,17 @@ public class CollectionTest {
     Collection collection;
     Item item;
     Item item1;
+    Item item2;
+    Item item3;
 
 
     @Before
     public void before() {
         collection = new Collection();
-        item = new FootballJersey( "FootBall Jersey", 50.00, 5.00, 55.00, 05, 2013, "Scotland");
-        item1 = new FootballJersey( "FootBall Jersey", 50.00, 5.00, 55.00, 02, 2015, "Germany");
+        item = new FootballJersey( "FootBall Jersey", 50.00, 5.00, 55.00, 05, 2013, "SCOTLAND");
+        item1 = new FootballJersey( "FootBall Jersey", 50.00, 5.00, 55.00, 02, 2015, "GERMANY");
+        item2 = new FootballShoe("Shoes", 60.00, 3.00, 70, 8, 2017,"NIKE");
+        item3 = new FootballShoe("Shoes", 47.00, 3.00, 52, 4, 2016,"PUMA");
     }
 
 
@@ -49,6 +53,16 @@ public class CollectionTest {
     @Test
     public void getMonthOfItem(){
         assertEquals(02, collection.itemMonth(item1));
+    }
+
+
+    @Test
+    public void canAddAllToCollection() {
+        collection.addToCollection(item);
+        collection.addToCollection(item1);
+        collection.addToCollection(item2);
+        collection.addToCollection(item3);
+        assertEquals(4, collection.itemCollectionCount());
     }
 
 }

@@ -10,7 +10,7 @@ public class FootballShoeTest {
 
     @Before
     public void before() {
-        footballShoe = new FootballShoe("Shoe", 60.00, 3.00, 70.00, 8, 2017, "Nike");
+        footballShoe = new FootballShoe("Shoe", 60.00, 3.00, 70.00, 8, 2017, "NIKE");
     }
 
     @Test
@@ -42,8 +42,6 @@ public class FootballShoeTest {
     public void canGetYear(){
         assertEquals( 2017, footballShoe.getYear());
     }
-
-
 
 
 
