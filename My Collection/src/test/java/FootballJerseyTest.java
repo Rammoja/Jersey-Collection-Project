@@ -9,7 +9,7 @@ public class FootballJerseyTest {
 
     @Before
     public void before(){
-        footballJersey = new FootballJersey("Jersey", 50.00, 5.00, 55.00, 2013, "Scotland");
+        footballJersey = new FootballJersey("Jersey", 50.00, 5.00, 55.00, 05, 2013, "Scotland");
 
     }
 
@@ -34,9 +34,16 @@ public class FootballJerseyTest {
     }
 
     @Test
-    public void canGetDatePurchase(){
-        assertEquals( 2013, footballJersey.getDatePurchase());
+    public void canGetMonth(){
+        assertEquals( 05, footballJersey.getMonth());
     }
+
+    @Test
+    public void canGetYear(){
+        assertEquals( 2013, footballJersey.getYear());
+    }
+
+
 
     @Test
     public void canGetTeamName(){

@@ -7,14 +7,16 @@ public abstract class Item {
     private double buying;
     private double shipping;
     private double marketValue;
-    private int datePurchase;
+    private int month;
+    private int year;
 
-    public Item (String itemType, double buying, double shipping, double marketValue, int datePurchase) {
+    public Item (String itemType, double buying, double shipping, double marketValue, int month, int year) {
         this.itemType = itemType;
         this.buying = buying;
         this.shipping = shipping;
         this.marketValue = marketValue;
-        this.datePurchase = datePurchase;
+        this.month = month;
+        this.year = year;
     }
 
     public String getItemType() {
@@ -33,7 +35,12 @@ public abstract class Item {
         return marketValue;
     }
 
-    public int getDatePurchase() {
-        return datePurchase;
+
+    public int getMonth() {
+        return month;
+    }
+
+    public int getYear() {
+        return year;
     }
 }
