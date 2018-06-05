@@ -54,5 +54,16 @@ public class FootballShoeTest {
         assertEquals(7.00, footballShoe.calculateMarkupPrice(result), 0.01);
     }
 
+    @Test
+    public void itemForResale(){
+        assertEquals(false, footballShoe.itemResaleStatus());
+    }
+
+    @Test
+    public void canChangeResaleStatus(){
+        footballShoe.changeResaleStatus();
+        assertEquals(true, footballShoe.itemResaleStatus());
+    }
+
 
 }

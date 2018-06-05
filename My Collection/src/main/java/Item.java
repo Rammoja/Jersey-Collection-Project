@@ -9,6 +9,7 @@ public abstract class Item {
     private double marketValue;
     private int month;
     private int year;
+    private boolean resale;
 
 
     public Item (String itemType, double buying, double shipping, double marketValue, int month, int year) {
@@ -18,6 +19,7 @@ public abstract class Item {
         this.marketValue = marketValue;
         this.month = month;
         this.year = year;
+        this.resale = false;
     }
 
     public String getItemType() {
@@ -52,5 +54,11 @@ public abstract class Item {
         return this.marketValue - TotalItemPrice;
     }
 
+    public boolean itemResaleStatus() {
+        return this.resale;
+    }
 
+    public void changeResaleStatus() {
+        this.resale ^= true;
+    }
 }
