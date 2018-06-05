@@ -34,4 +34,8 @@ public class Collection {
     public int itemMonth(Item item) {
         return item.getMonth();
     }
+
+    public void removeFromCollection(Item item) {
+        items.remove(item);
+    }
 }

@@ -15,7 +15,7 @@ public class FootballShoeTest {
 
     @Test
     public void canGetBrand(){
-        assertEquals("Nike", footballShoe.getBrand());
+        assertEquals("NIKE", footballShoe.getBrand());
     }
 
     @Test

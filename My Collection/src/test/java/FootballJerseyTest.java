@@ -43,11 +43,10 @@ public class FootballJerseyTest {
         assertEquals( 2013, footballJersey.getYear());
     }
 
-
-
     @Test
     public void canGetTeamName(){
-        assertEquals( "Scotland", footballJersey.getTeamName());
+        assertEquals( "SCOTLAND", footballJersey.getTeamName());
     }
+
 
 }

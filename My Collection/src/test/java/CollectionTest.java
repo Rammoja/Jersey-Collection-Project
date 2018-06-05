@@ -75,4 +75,15 @@ public class CollectionTest {
         assertEquals(207.00, collection.CollectionCost(),0.01);
     }
 
+    @Test
+    public void canRemoveItemFromCollection(){
+        collection.addToCollection(item2);
+        collection.removeFromCollection(item2);
+        assertEquals(0,collection.itemCollectionCount());
+    }
+
+    @Test
+    public void
+
+
 }
