@@ -9,7 +9,7 @@ public class FootballJerseyTest {
 
     @Before
     public void before(){
-        footballJersey = new FootballJersey("Football Jersey", 50.00, 5.00, 55.00, 05, 2013, "SCOTLAND");
+        footballJersey = new FootballJersey("Football Jersey", 50.00, 5.00, 60.00, 05, 2013, "SCOTLAND");
 
     }
 
@@ -46,6 +46,12 @@ public class FootballJerseyTest {
     @Test
     public void canGetTeamName(){
         assertEquals( "SCOTLAND", footballJersey.getTeamName());
+    }
+
+
+    @Test
+    public void calculateMarkupPrice(){
+        assertEquals(5.00, footballJersey.calculateMarkupPrice(),0.01);
     }
 
 

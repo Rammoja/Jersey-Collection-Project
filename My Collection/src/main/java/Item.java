@@ -10,6 +10,7 @@ public abstract class Item {
     private int month;
     private int year;
 
+
     public Item (String itemType, double buying, double shipping, double marketValue, int month, int year) {
         this.itemType = itemType;
         this.buying = buying;
@@ -35,12 +36,15 @@ public abstract class Item {
         return marketValue;
     }
 
-
     public int getMonth() {
         return month;
     }
 
     public int getYear() {
         return year;
+    }
+
+
+    public double calculateMarkupPrice() {
     }
 }
