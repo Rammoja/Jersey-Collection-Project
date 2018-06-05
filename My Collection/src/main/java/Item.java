@@ -10,6 +10,7 @@ public abstract class Item {
     private int month;
     private int year;
     private boolean resale;
+    private boolean favorite;
 
 
     public Item (String itemType, double buying, double shipping, double marketValue, int month, int year) {
@@ -20,6 +21,7 @@ public abstract class Item {
         this.month = month;
         this.year = year;
         this.resale = false;
+        this.favorite = false;
     }
 
     public String getItemType() {
@@ -60,5 +62,9 @@ public abstract class Item {
 
     public void changeResaleStatus() {
         this.resale ^= true;
+    }
+
+    public boolean itemIsFavouriteStatus() {
+        return this.favorite;
     }
 }
