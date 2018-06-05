@@ -19,8 +19,8 @@ public class CollectionTest {
     @Before
     public void before() {
         collection = new Collection();
-        item = new FootballJersey( "FootBall Jersey", 50.00, 5.00, 58.00, 05, 2013, "SCOTLAND");
-        item1 = new FootballJersey( "FootBall Jersey", 50.00, 5.00, 60.00, 02, 2015, "GERMANY");
+        item = new FootballJersey( "FootBall Jersey", 50.00, 5.00, 58.00, 05, 2013, "SCOTLAND", JerseyLeagues.WORLDCUP);
+        item1 = new FootballJersey( "FootBall Jersey", 50.00, 5.00, 60.00, 02, 2015, "GERMANY", JerseyLeagues.WORLDCUP);
         item2 = new FootballShoe("Shoes", 60.00, 3.00, 70, 8, 2017,"NIKE");
         item3 = new FootballShoe("Shoes", 47.00, 3.00, 52, 4, 2016,"PUMA");
     }
