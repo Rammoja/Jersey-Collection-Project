@@ -30,7 +30,7 @@ public class FootballJerseyTest {
 
     @Test
     public void hasMarketValue(){
-        assertEquals( 55.00, footballJersey.getMarketValue(), 0.01);
+        assertEquals( 60.00, footballJersey.getMarketValue(), 0.01);
     }
 
     @Test
@@ -50,13 +50,13 @@ public class FootballJerseyTest {
 
 
     @Test
-    public void calculateTotalJerseyPrice(){calculateMarkupPrice();
-        assertEquals(55.00, footballJersey.calculateTotalJerseyPrice(),0.01);
+    public void calculateTotalJerseyPrice(){
+        assertEquals(55.00, footballJersey.calculateTotalItemPrice(),0.01);
     }
 
     @Test
     public void calculateMarkupPrice(){
-        double result = footballJersey.calculateTotalJerseyPrice();
+        double result = footballJersey.calculateTotalItemPrice();
         assertEquals(5.00, footballJersey.calculateMarkupPrice(result),0.01);
     }
 

@@ -43,6 +43,16 @@ public class FootballShoeTest {
         assertEquals( 2017, footballShoe.getYear());
     }
 
+    @Test
+    public void calculateFootballShoePrice(){
+        assertEquals(63.00, footballShoe.calculateTotalItemPrice(),0.01);
+    }
+
+    @Test
+    public void calculateMarkupPrice(){
+        double result = footballShoe.calculateTotalItemPrice();
+        assertEquals(7.00, footballShoe.calculateMarkupPrice(result), 0.01);
+    }
 
 
 }
