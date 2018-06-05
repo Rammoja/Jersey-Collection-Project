@@ -50,9 +50,16 @@ public class FootballJerseyTest {
 
 
     @Test
-    public void calculateMarkupPrice(){
-        assertEquals(5.00, footballJersey.calculateMarkupPrice(),0.01);
+    public void calculateTotalJerseyPrice(){calculateMarkupPrice();
+        assertEquals(55.00, footballJersey.calculateTotalJerseyPrice(),0.01);
     }
+
+    @Test
+    public void calculateMarkupPrice(){
+        double result = footballJersey.calculateTotalJerseyPrice();
+        assertEquals(5.00, footballJersey.calculateMarkupPrice(result),0.01);
+    }
+
 
 
 }

@@ -44,7 +44,12 @@ public abstract class Item {
         return year;
     }
 
-
-    public double calculateMarkupPrice() {
+    public double calculateTotalJerseyPrice() {
+        return this.buying + this.shipping;
     }
+
+    public double calculateMarkupPrice(double TotalJerseyPrice) {
+        return this.marketValue - TotalJerseyPrice;
+    }
+
 }
