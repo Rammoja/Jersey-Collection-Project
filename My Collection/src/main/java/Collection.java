@@ -22,7 +22,7 @@ public class Collection {
     public double CollectionCost() {
         double collectionCost = 0;
         for (Item item : items){
-            collectionCost += item.getBuying();
+            collectionCost += item.getBuying() + item.getShipping();
         }
         return collectionCost;
     }
@@ -38,5 +38,14 @@ public class Collection {
 
     public void removeFromCollection(Item item) {
         items.remove(item);
+    }
+
+
+    public double possibleProfit() {
+        double possibleProfit = 0;
+        for (Item item : items){
+            possibleProfit += item.getMarketValue() - (item.getBuying() + item.getShipping());
+        }
+        return possibleProfit;
     }
 }

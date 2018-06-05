@@ -70,5 +70,11 @@ public class FootballShoeTest {
         assertEquals(false, footballShoe.itemIsFavouriteStatus());
     }
 
+    @Test
+    public void changeFavouriteItem(){
+        footballShoe.changeFavouriteItemStatus();
+        assertEquals(true, footballShoe.itemIsFavouriteStatus());
+    }
+
 
 }

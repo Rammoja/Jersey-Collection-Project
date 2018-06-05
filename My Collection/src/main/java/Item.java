@@ -67,4 +67,9 @@ public abstract class Item {
     public boolean itemIsFavouriteStatus() {
         return this.favorite;
     }
+
+    public void changeFavouriteItemStatus() {
+        this.favorite ^= true;
+    }
+
 }
