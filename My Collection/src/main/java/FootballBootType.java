@@ -1,4 +1,4 @@
-public enum FootballShoeType {
+public enum FootballBootType {
 
     INDOOR,
     TUFF,

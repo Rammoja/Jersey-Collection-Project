@@ -17,8 +17,8 @@ public class CollectionTest {
         collection = new Collection();
         item = new FootballJersey( "FootBall Jersey", 50.00, 5.00, 58.00, 05, 2013, "SCOTLAND", LeagueJersey.WORLDCUP);
         item1 = new FootballJersey( "FootBall Jersey", 50.00, 5.00, 60.00, 02, 2015, "GERMANY", LeagueJersey.WORLDCUP);
-        item2 = new FootballShoe("Shoes", 60.00, 3.00, 70, 8, 2017,"NIKE", FootballShoeType.OUTDOOR);
-        item3 = new FootballShoe("Shoes", 47.00, 3.00, 52, 4, 2016,"PUMA", FootballShoeType.OUTDOOR);
+        item2 = new FootballBoot("Shoes", 60.00, 3.00, 70, 8, 2017,"NIKE", FootballBootType.OUTDOOR);
+        item3 = new FootballBoot("Shoes", 47.00, 3.00, 52, 4, 2016,"PUMA", FootballBootType.OUTDOOR);
     }
 
 

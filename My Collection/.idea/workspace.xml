@@ -54,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FootballShoe.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/FootballShoe.java">
+      <file leaf-file-name="FootballBoot.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FootballBoot.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="e#466#467#0" expanded="true" />
                 <element signature="e#494#495#0" expanded="true" />
@@ -69,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FootballShoeTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/FootballShoeTest.java">
+      <file leaf-file-name="FootballBootTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/FootballBootTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="80" column="37" lean-forward="false" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
+            <state relative-caret-position="433">
+              <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#358#359#0" expanded="true" />
@@ -101,17 +101,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FootballShoeType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/FootballShoeType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Collection.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Collection.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Collection.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -148,16 +138,6 @@
                 <element signature="e#1418#1419#0" expanded="true" />
                 <element signature="e#1479#1480#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeagueJersey.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LeagueJersey.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -521,6 +501,7 @@
         <option value="$PROJECT_DIR$/src/main/java/FootballShoe.java" />
         <option value="$PROJECT_DIR$/src/test/java/CollectionTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/FootballShoeTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FootballBootTest.java" />
       </list>
     </option>
   </component>
@@ -645,14 +626,34 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="CollectionTest.canGetOverallProfit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FootballBootTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="My_Collection_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CollectionTest" />
-      <option name="METHOD_NAME" value="canGetOverallProfit" />
+      <option name="MAIN_CLASS_NAME" value="FootballBootTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="FootballBootTest.canGetFootballBootType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="My_Collection_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FootballBootTest" />
+      <option name="METHOD_NAME" value="canGetFootballBootType" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -665,14 +666,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="CollectionTest.getCollectionCost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FootballBootTest.canGetFootballShoeType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="My_Collection_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CollectionTest" />
-      <option name="METHOD_NAME" value="getCollectionCost" />
+      <option name="MAIN_CLASS_NAME" value="FootballBootTest" />
+      <option name="METHOD_NAME" value="canGetFootballShoeType" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -693,26 +694,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FootballJerseyTest" />
       <option name="METHOD_NAME" value="canGetJerseyType" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="FootballShoeTest.canGetFootballShoeType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="My_Collection_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FootballShoeTest" />
-      <option name="METHOD_NAME" value="canGetFootballShoeType" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -787,18 +768,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.All in My_Collection_test" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CollectionTest.canGetOverallProfit" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CollectionTest.getCollectionCost" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FootballJerseyTest.canGetJerseyType" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.FootballShoeTest.canGetFootballShoeType" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FootballJerseyTest.canGetJerseyType" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FootballBootTest.canGetFootballShoeType" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FootballBootTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FootballBootTest.canGetFootballBootType" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.All in My_Collection_test" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FootballShoeTest.canGetFootballShoeType" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FootballJerseyTest.canGetJerseyType" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CollectionTest.canGetOverallProfit" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CollectionTest.getCollectionCost" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FootballBootTest.canGetFootballBootType" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FootballBootTest.canGetFootballShoeType" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FootballBootTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FootballJerseyTest.canGetJerseyType" />
       </list>
     </recent_temporary>
   </component>
@@ -819,23 +800,23 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_My_Collection_test - 2018.06.05 at 14h 59m 04s.xml">
-      <configuration name="All in My_Collection_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_My_Collection_test - 2018.06.05 at 15h 00m 10s.xml">
       <configuration name="All in My_Collection_test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_My_Collection_test - 2018.06.06 at 09h 47m 09s.xml">
       <configuration name="All in My_Collection_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionTest_canGetOverallProfit - 2018.06.05 at 14h 57m 16s.xml">
-      <configuration name="CollectionTest.canGetOverallProfit" configurationId="JUnit" />
+    <history-entry file="All_in_My_Collection_test - 2018.06.06 at 09h 57m 47s.xml">
+      <configuration name="All in My_Collection_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionTest_canGetOverallProfit - 2018.06.05 at 15h 00m 05s.xml">
-      <configuration name="CollectionTest.canGetOverallProfit" configurationId="JUnit" />
+    <history-entry file="FootballBootTest - 2018.06.06 at 09h 56m 12s.xml">
+      <configuration name="FootballBootTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionTest_getCollectionCost - 2018.06.05 at 14h 59m 36s.xml">
-      <configuration name="CollectionTest.getCollectionCost" configurationId="JUnit" />
+    <history-entry file="FootballBootTest_canGetFootballBootType - 2018.06.06 at 09h 57m 39s.xml">
+      <configuration name="FootballBootTest.canGetFootballBootType" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FootballBootTest_canGetFootballShoeType - 2018.06.06 at 09h 57m 03s.xml">
+      <configuration name="FootballBootTest.canGetFootballShoeType" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FootballJerseyTest_canGetJerseyType - 2018.06.05 at 15h 45m 03s.xml">
       <configuration name="FootballJerseyTest.canGetJerseyType" configurationId="JUnit" />
@@ -867,7 +848,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17638889" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17638889" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -898,55 +879,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="1" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding>
-            <element signature="e#687#688#0" expanded="true" />
-            <element signature="e#718#719#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#815#816#0" expanded="true" />
-            <element signature="e#846#847#0" expanded="true" />
-            <element signature="e#884#885#0" expanded="true" />
-            <element signature="e#918#919#0" expanded="true" />
-            <element signature="e#947#948#0" expanded="true" />
-            <element signature="e#975#976#0" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
-            <element signature="e#1030#1031#0" expanded="true" />
-            <element signature="e#1077#1078#0" expanded="true" />
-            <element signature="e#1127#1128#0" expanded="true" />
-            <element signature="e#1192#1193#0" expanded="true" />
-            <element signature="e#1248#1249#0" expanded="true" />
-            <element signature="e#1289#1290#0" expanded="true" />
-            <element signature="e#1323#1324#0" expanded="true" />
-            <element signature="e#1363#1364#0" expanded="true" />
-            <element signature="e#1398#1399#0" expanded="true" />
-            <element signature="e#1444#1445#0" expanded="true" />
-            <element signature="e#1480#1481#0" expanded="true" />
-            <element signature="e#1527#1528#0" expanded="true" />
-            <element signature="e#1564#1565#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LeagueJersey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FootballShoeType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -992,6 +924,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LeagueJersey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CollectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-677">
@@ -1008,10 +969,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FootballShoeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/FootballBootType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="80" column="37" lean-forward="false" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#918#919#0" expanded="true" />
+            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#975#976#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+            <element signature="e#1030#1031#0" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
+            <element signature="e#1127#1128#0" expanded="true" />
+            <element signature="e#1192#1193#0" expanded="true" />
+            <element signature="e#1248#1249#0" expanded="true" />
+            <element signature="e#1289#1290#0" expanded="true" />
+            <element signature="e#1323#1324#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1398#1399#0" expanded="true" />
+            <element signature="e#1444#1445#0" expanded="true" />
+            <element signature="e#1480#1481#0" expanded="true" />
+            <element signature="e#1527#1528#0" expanded="true" />
+            <element signature="e#1564#1565#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FootballBoot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FootballBootTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#358#359#0" expanded="true" />
@@ -1034,40 +1049,6 @@
             <element signature="e#1699#1700#0" expanded="true" />
             <element signature="e#1924#1925#0" expanded="true" />
             <element signature="e#2014#2015#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FootballShoe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="e#117#118#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-            <element signature="e#667#668#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
           </folding>
         </state>
       </provider>
