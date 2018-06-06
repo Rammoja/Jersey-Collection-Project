@@ -152,14 +152,22 @@
       <file leaf-file-name="RubberDuckTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/RubberDuckTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="46" lean-forward="false" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+            <state relative-caret-position="388">
+              <caret line="42" column="49" lean-forward="false" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#398#399#0" expanded="true" />
                 <element signature="e#466#467#0" expanded="true" />
                 <element signature="e#514#515#0" expanded="true" />
                 <element signature="e#578#579#0" expanded="true" />
+                <element signature="e#629#630#0" expanded="true" />
+                <element signature="e#694#695#0" expanded="true" />
+                <element signature="e#742#743#0" expanded="true" />
+                <element signature="e#811#812#0" expanded="true" />
+                <element signature="e#853#854#0" expanded="true" />
+                <element signature="e#908#909#0" expanded="true" />
+                <element signature="e#949#950#0" expanded="true" />
+                <element signature="e#1005#1006#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -609,7 +617,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RubberDuckTest.canGetBuyingPrice">
+  <component name="RunManager" selected="JUnit.RubberDuckTest.canGetYear">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -631,66 +639,6 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="All in My_Collection_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="My_Collection_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="FootballBootTest.calculateMarkupPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="My_Collection_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FootballBootTest" />
-      <option name="METHOD_NAME" value="calculateMarkupPrice" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="FootballJerseyTest.canSellItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="My_Collection_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FootballJerseyTest" />
-      <option name="METHOD_NAME" value="canSellItem" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="RubberDuckTest.canGetBuyingPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="My_Collection_test" />
@@ -711,14 +659,74 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="RubberDuckTest.canGetDuckType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RubberDuckTest.canGetMarketValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="My_Collection_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RubberDuckTest" />
-      <option name="METHOD_NAME" value="canGetDuckType" />
+      <option name="METHOD_NAME" value="canGetMarketValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="RubberDuckTest.canGetMonth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="My_Collection_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RubberDuckTest" />
+      <option name="METHOD_NAME" value="canGetMonth" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="RubberDuckTest.canGetShippingPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="My_Collection_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RubberDuckTest" />
+      <option name="METHOD_NAME" value="canGetShippingPrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="RubberDuckTest.canGetYear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="My_Collection_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RubberDuckTest" />
+      <option name="METHOD_NAME" value="canGetYear" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -792,19 +800,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.All in My_Collection_test" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FootballBootTest.calculateMarkupPrice" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.FootballJerseyTest.canSellItem" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.RubberDuckTest.canGetDuckType" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.RubberDuckTest.canGetBuyingPrice" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.RubberDuckTest.canGetBuyingPrice" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.RubberDuckTest.canGetShippingPrice" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.RubberDuckTest.canGetMarketValue" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.RubberDuckTest.canGetMonth" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.RubberDuckTest.canGetYear" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.RubberDuckTest.canGetBuyingPrice" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All in My_Collection_test" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.RubberDuckTest.canGetDuckType" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FootballJerseyTest.canSellItem" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FootballBootTest.calculateMarkupPrice" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.RubberDuckTest.canGetYear" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.RubberDuckTest.canGetMonth" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RubberDuckTest.canGetMarketValue" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.RubberDuckTest.canGetShippingPrice" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.RubberDuckTest.canGetBuyingPrice" />
       </list>
     </recent_temporary>
   </component>
@@ -825,12 +833,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_My_Collection_test - 2018.06.06 at 11h 17m 20s.xml">
-      <configuration name="All in My_Collection_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_My_Collection_test - 2018.06.06 at 11h 20m 43s.xml">
-      <configuration name="All in My_Collection_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_My_Collection_test - 2018.06.06 at 11h 38m 22s.xml">
       <configuration name="All in My_Collection_test" configurationId="JUnit" />
     </history-entry>
@@ -840,12 +842,6 @@
     <history-entry file="All_in_My_Collection_test - 2018.06.06 at 13h 57m 04s.xml">
       <configuration name="All in My_Collection_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FootballBootTest_calculateMarkupPrice - 2018.06.06 at 11h 38m 17s.xml">
-      <configuration name="FootballBootTest.calculateMarkupPrice" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FootballJerseyTest_calculateMarkupPrice - 2018.06.06 at 11h 38m 07s.xml">
-      <configuration name="FootballJerseyTest.calculateMarkupPrice" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FootballJerseyTest_canSellItem - 2018.06.06 at 11h 39m 07s.xml">
       <configuration name="FootballJerseyTest.canSellItem" configurationId="JUnit" />
     </history-entry>
@@ -854,6 +850,18 @@
     </history-entry>
     <history-entry file="RubberDuckTest_canGetDuckType - 2018.06.06 at 13h 57m 00s.xml">
       <configuration name="RubberDuckTest.canGetDuckType" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RubberDuckTest_canGetMarketValue - 2018.06.06 at 14h 04m 37s.xml">
+      <configuration name="RubberDuckTest.canGetMarketValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RubberDuckTest_canGetMonth - 2018.06.06 at 14h 05m 21s.xml">
+      <configuration name="RubberDuckTest.canGetMonth" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RubberDuckTest_canGetShippingPrice - 2018.06.06 at 14h 00m 45s.xml">
+      <configuration name="RubberDuckTest.canGetShippingPrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RubberDuckTest_canGetYear - 2018.06.06 at 14h 07m 27s.xml">
+      <configuration name="RubberDuckTest.canGetYear" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -996,14 +1004,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FootballBootType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/RubberDuck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1063,6 +1063,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FootballBootType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FootballBootTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -1095,14 +1103,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RubberDuckTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="46" lean-forward="false" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+        <state relative-caret-position="388">
+          <caret line="42" column="49" lean-forward="false" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#398#399#0" expanded="true" />
             <element signature="e#466#467#0" expanded="true" />
             <element signature="e#514#515#0" expanded="true" />
             <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#949#950#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
           </folding>
         </state>
       </provider>

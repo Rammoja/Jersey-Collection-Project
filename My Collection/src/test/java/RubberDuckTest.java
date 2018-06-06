@@ -22,4 +22,24 @@ public class RubberDuckTest {
     public void canGetBuyingPrice(){
         assertEquals(10.00, rubberDuck.getBuying(),0.01);
     }
+
+    @Test
+    public void  canGetShippingPrice(){
+        assertEquals(2.00, rubberDuck.getShipping(),0.01);
+    }
+
+    @Test
+    public void canGetMarketValue(){
+        assertEquals(12.00, rubberDuck.getMarketValue(),0.01);
+    }
+
+    @Test
+    public void canGetMonth(){
+        assertEquals(02, rubberDuck.getMonth());
+    }
+
+    @Test
+    public void canGetYear(){
+        assertEquals(2017, rubberDuck.getYear());
+    }
 }
