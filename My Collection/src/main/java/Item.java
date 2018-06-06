@@ -11,9 +11,10 @@ public abstract class Item {
     private int year;
     private boolean resale;
     private boolean favorite;
+    private double selling;
 
 
-    public Item (String itemType, double buying, double shipping, double marketValue, int month, int year) {
+    public Item (String itemType, double buying, double shipping, double marketValue, int month, int year, double selling) {
         this.itemType = itemType;
         this.buying = buying;
         this.shipping = shipping;
@@ -22,6 +23,7 @@ public abstract class Item {
         this.year = year;
         this.resale = false;
         this.favorite = false;
+        this.selling = selling;
     }
 
     public String getItemType() {
@@ -72,4 +74,7 @@ public abstract class Item {
         this.favorite ^= true;
     }
 
+    public double sellItem() {
+        return selling;
+    }
 }

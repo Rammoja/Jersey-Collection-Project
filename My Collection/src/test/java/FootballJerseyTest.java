@@ -9,7 +9,7 @@ public class FootballJerseyTest {
 
     @Before
     public void before(){
-        footballJersey = new FootballJersey("Football Jersey", 50.00, 5.00, 60.00, 05, 2013, "SCOTLAND", LeagueJersey.WORLDCUP);
+        footballJersey = new FootballJersey("Football Jersey", 50.00, 5.00, 60.00, 05, 2013, "SCOTLAND", LeagueJersey.WORLDCUP, 60);
 
     }
 
@@ -64,6 +64,20 @@ public class FootballJerseyTest {
     public void canGetJerseyType(){
         assertEquals(LeagueJersey.WORLDCUP, footballJersey.getLeagueJerseyType());
     }
+
+    @Test
+    public void canSellItem(){
+        assertEquals(60,footballJersey.sellItem(),0.001);
+    }
+
+
+
+
+//    @Test
+//    public void calculateTimeItemWasOwned(){
+//        footballJersey.getYear();
+//        assertEquals(1, footballJersey.calculateTimeItemWasOwned());
+//    }
 
 
 

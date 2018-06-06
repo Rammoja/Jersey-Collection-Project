@@ -10,7 +10,7 @@ public class FootballBootTest {
 
     @Before
     public void before() {
-        footballBoot = new FootballBoot("Shoe", 60.00, 3.00, 70.00, 8, 2017, "NIKE", FootballBootType.OUTDOOR);
+        footballBoot = new FootballBoot("Shoe", 60.00, 3.00, 70.00, 8, 2017, "NIKE", FootballBootType.OUTDOOR, 72.00);
     }
 
     @Test
