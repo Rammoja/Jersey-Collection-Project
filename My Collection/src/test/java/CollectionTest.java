@@ -15,10 +15,10 @@ public class CollectionTest {
     @Before
     public void before() {
         collection = new Collection();
-        item = new FootballJersey( "FootBall Jersey", 50.00, 5.00, 58.00, 05, 2013, "SCOTLAND", LeagueJersey.WORLDCUP, 60);
-        item1 = new FootballJersey( "FootBall Jersey", 50.00, 5.00, 60.00, 02, 2015, "GERMANY", LeagueJersey.WORLDCUP,65);
-        item2 = new FootballBoot("Shoes", 60.00, 3.00, 70, 8, 2017,"NIKE", FootballBootType.OUTDOOR, 73);
-        item3 = new FootballBoot("Shoes", 47.00, 3.00, 52, 4, 2016,"PUMA", FootballBootType.OUTDOOR, 56);
+        item = new FootballJersey( "FootBall Jersey", 50.00, 5.00, 58.00, 05, 2013, "Manchester UTD", LeagueJersey.ENGLISHPREMIRE, 60.00);
+        item1 = new FootballJersey( "FootBall Jersey", 50.00, 5.00, 60.00, 02, 2015, "GERMANY", LeagueJersey.WORLDCUP,65.00);
+        item2 = new FootballBoot("Shoes", 60.00, 3.00, 70, 8, 2017,"NIKE", FootballBootType.OUTDOOR, 73.00);
+        item3 = new FootballBoot("Shoes", 47.00, 3.00, 52, 4, 2016,"PUMA", FootballBootType.TUFF, 56.00);
     }
 
 
@@ -79,7 +79,7 @@ public class CollectionTest {
     }
 
     @Test
-    public void canGetOverallProfit(){
+    public void canGetPossibleProfit(){
         collection.addToCollection(item);
         collection.addToCollection(item1);
         collection.addToCollection(item2);

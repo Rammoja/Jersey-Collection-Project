@@ -55,7 +55,7 @@ public abstract class Item {
     }
 
     public double calculateMarkupPrice(double TotalItemPrice) {
-        return this.marketValue - TotalItemPrice;
+        return this.selling - TotalItemPrice;
     }
 
     public boolean itemResaleStatus() {
