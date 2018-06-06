@@ -10,7 +10,7 @@ public class FootballShoeTest {
 
     @Before
     public void before() {
-        footballShoe = new FootballShoe("Shoe", 60.00, 3.00, 70.00, 8, 2017, "NIKE");
+        footballShoe = new FootballShoe("Shoe", 60.00, 3.00, 70.00, 8, 2017, "NIKE", FootballShoeType.OUTDOOR);
     }
 
     @Test
@@ -74,6 +74,11 @@ public class FootballShoeTest {
     public void changeFavouriteItem(){
         footballShoe.changeFavouriteItemStatus();
         assertEquals(true, footballShoe.itemIsFavouriteStatus());
+    }
+
+    @Test
+    public void canGetFootballShoeType(){
+        assertEquals(FootballShoeType.OUTDOOR, footballShoe.getFootballShoeType());
     }
 
 

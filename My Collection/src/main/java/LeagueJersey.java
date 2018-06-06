@@ -1,4 +1,4 @@
-public enum JerseyLeagues {
+public enum LeagueJersey {
     ENGLISHPREMIRE,
     WORLDCUP,
     EUROCUP,

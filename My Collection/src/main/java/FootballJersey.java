@@ -1,16 +1,14 @@
-import sun.dc.pr.PRError;
-
 public class FootballJersey extends Item {
 
     private String teamName;
-    private JerseyLeagues jerseyLeagues;
+    private LeagueJersey leagueJersey;
 
 
 
-    public FootballJersey(String itemType, double buying, double shipping, double marketValue, int month, int year, String teamName, JerseyLeagues jerseyLeagues) {
+    public FootballJersey(String itemType, double buying, double shipping, double marketValue, int month, int year, String teamName, LeagueJersey leagueJersey) {
         super(itemType, buying, shipping, marketValue, month, year);
         this.teamName = teamName;
-        this.jerseyLeagues = jerseyLeagues;
+        this.leagueJersey = leagueJersey;
 
     }
 
@@ -18,8 +16,8 @@ public class FootballJersey extends Item {
         return teamName;
     }
 
-    public JerseyLeagues getJerseyLeagueType() {
-        return jerseyLeagues;
+    public LeagueJersey getLeagueJerseyType() {
+        return leagueJersey;
     }
 
 }
