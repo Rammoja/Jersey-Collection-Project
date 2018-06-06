@@ -152,10 +152,14 @@
       <file leaf-file-name="RubberDuckTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/RubberDuckTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            <state relative-caret-position="330">
+              <caret line="22" column="46" lean-forward="false" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+                <element signature="e#514#515#0" expanded="true" />
+                <element signature="e#578#579#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -605,7 +609,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in My_Collection_test">
+  <component name="RunManager" selected="JUnit.RubberDuckTest.canGetBuyingPrice">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -667,14 +671,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="FootballJerseyTest.calculateMarkupPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FootballJerseyTest.canSellItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="My_Collection_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FootballJerseyTest" />
-      <option name="METHOD_NAME" value="calculateMarkupPrice" />
+      <option name="METHOD_NAME" value="canSellItem" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -687,14 +691,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="FootballJerseyTest.canSellItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RubberDuckTest.canGetBuyingPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="My_Collection_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FootballJerseyTest" />
-      <option name="METHOD_NAME" value="canSellItem" />
+      <option name="MAIN_CLASS_NAME" value="RubberDuckTest" />
+      <option name="METHOD_NAME" value="canGetBuyingPrice" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -789,18 +793,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.All in My_Collection_test" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FootballJerseyTest.calculateMarkupPrice" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.FootballBootTest.calculateMarkupPrice" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FootballJerseyTest.canSellItem" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.RubberDuckTest.canGetDuckType" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FootballBootTest.calculateMarkupPrice" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FootballJerseyTest.canSellItem" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.RubberDuckTest.canGetDuckType" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.RubberDuckTest.canGetBuyingPrice" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.All in My_Collection_test" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.RubberDuckTest.canGetDuckType" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FootballJerseyTest.canSellItem" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.FootballBootTest.calculateMarkupPrice" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FootballJerseyTest.calculateMarkupPrice" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.RubberDuckTest.canGetBuyingPrice" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.All in My_Collection_test" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.RubberDuckTest.canGetDuckType" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FootballJerseyTest.canSellItem" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FootballBootTest.calculateMarkupPrice" />
       </list>
     </recent_temporary>
   </component>
@@ -836,9 +840,6 @@
     <history-entry file="All_in_My_Collection_test - 2018.06.06 at 13h 57m 04s.xml">
       <configuration name="All in My_Collection_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionTest_canGetPossibleProfit - 2018.06.06 at 11h 17m 16s.xml">
-      <configuration name="CollectionTest.canGetPossibleProfit" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FootballBootTest_calculateMarkupPrice - 2018.06.06 at 11h 38m 17s.xml">
       <configuration name="FootballBootTest.calculateMarkupPrice" configurationId="JUnit" />
     </history-entry>
@@ -847,6 +848,9 @@
     </history-entry>
     <history-entry file="FootballJerseyTest_canSellItem - 2018.06.06 at 11h 39m 07s.xml">
       <configuration name="FootballJerseyTest.canSellItem" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RubberDuckTest_canGetBuyingPrice - 2018.06.06 at 13h 59m 01s.xml">
+      <configuration name="RubberDuckTest.canGetBuyingPrice" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RubberDuckTest_canGetDuckType - 2018.06.06 at 13h 57m 00s.xml">
       <configuration name="RubberDuckTest.canGetDuckType" configurationId="JUnit" />
@@ -1091,10 +1095,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RubberDuckTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        <state relative-caret-position="330">
+          <caret line="22" column="46" lean-forward="false" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
           </folding>
         </state>
       </provider>

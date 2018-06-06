@@ -14,9 +14,12 @@ public class RubberDuckTest {
     }
 
     @Test
-
     public void canGetDuckType(){
         assertEquals("Donut Duck", rubberDuck.getDuckType());
+    }
 
+    @Test
+    public void canGetBuyingPrice(){
+        assertEquals(10.00, rubberDuck.getBuying(),0.01);
     }
 }
