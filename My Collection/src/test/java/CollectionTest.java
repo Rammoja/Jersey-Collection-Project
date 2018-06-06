@@ -15,10 +15,10 @@ public class CollectionTest {
     @Before
     public void before() {
         collection = new Collection();
-        item = new FootballJersey( "FootBall Jersey", 50.00, 5.00, 58.00, 05, 2013, "SCOTLAND", LeagueJersey.WORLDCUP, 58);
-        item1 = new FootballJersey( "FootBall Jersey", 50.00, 5.00, 60.00, 02, 2015, "GERMANY", LeagueJersey.WORLDCUP,60);
-        item2 = new FootballBoot("Shoes", 60.00, 3.00, 70, 8, 2017,"NIKE", FootballBootType.OUTDOOR, 70);
-        item3 = new FootballBoot("Shoes", 47.00, 3.00, 52, 4, 2016,"PUMA", FootballBootType.OUTDOOR, 52);
+        item = new FootballJersey( "FootBall Jersey", 50.00, 5.00, 58.00, 05, 2013, "SCOTLAND", LeagueJersey.WORLDCUP, 60);
+        item1 = new FootballJersey( "FootBall Jersey", 50.00, 5.00, 60.00, 02, 2015, "GERMANY", LeagueJersey.WORLDCUP,65);
+        item2 = new FootballBoot("Shoes", 60.00, 3.00, 70, 8, 2017,"NIKE", FootballBootType.OUTDOOR, 73);
+        item3 = new FootballBoot("Shoes", 47.00, 3.00, 52, 4, 2016,"PUMA", FootballBootType.OUTDOOR, 56);
     }
 
 
@@ -85,6 +85,15 @@ public class CollectionTest {
         collection.addToCollection(item2);
         collection.addToCollection(item3);
         assertEquals(17.00,collection.possibleProfit(),0.01);
+    }
+
+    @Test
+    public void canGetProfit(){
+        collection.addToCollection(item);
+        collection.addToCollection(item1);
+        collection.addToCollection(item2);
+        collection.addToCollection(item3);
+        assertEquals(31.00,collection.getProfit(),0.01);
     }
 
 

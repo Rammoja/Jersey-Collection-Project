@@ -48,4 +48,12 @@ public class Collection {
         }
         return possibleProfit;
     }
+
+    public double getProfit() {
+        double profit = 0;
+        for (Item item : items){
+            profit += item.sellItem() - (item.getBuying() + item.getShipping());
+        }
+        return profit;
+    }
 }
