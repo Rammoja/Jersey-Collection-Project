@@ -42,4 +42,9 @@ public class RubberDuckTest {
     public void canGetYear(){
         assertEquals(2017, rubberDuck.getYear());
     }
+
+    @Test
+    public void canGetSellingPrice(){
+        assertEquals(14, rubberDuck.sellItem(),0.01);
+    }
 }
