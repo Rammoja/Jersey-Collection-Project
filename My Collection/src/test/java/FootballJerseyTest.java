@@ -9,7 +9,7 @@ public class FootballJerseyTest {
 
     @Before
     public void before(){
-        footballJersey = new FootballJersey("Football Jersey", 50.00, 5.00, 60.00, 05, 2013, "SCOTLAND", LeagueJersey.WORLDCUP, 62.00);
+        footballJersey = new FootballJersey("Football Jersey", 50.00, 5.00, 60.00, 05, 2013, "SCOTLAND", 62.00, LeagueJersey.WORLDCUP);
 
     }
 

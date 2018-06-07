@@ -16,11 +16,11 @@ public class CollectionTest {
     @Before
     public void before() {
         collection = new Collection();
-        item = new FootballJersey("FootBall Jersey", 50.00, 5.00, 58.00, 5, 2013, "Manchester UTD", LeagueJersey.ENGLISHPREMIRE, 60.00);
-        item1 = new FootballJersey("FootBall Jersey", 50.00, 5.00, 60.00, 2, 2015, "GERMANY", LeagueJersey.WORLDCUP, 65.00);
-        item2 = new FootballBoot("Boots", 60.00, 3.00, 70.00, 8, 2017, "NIKE", FootballBootType.OUTDOOR, 73.00);
-        item3 = new FootballBoot("Boots", 47.00, 3.00, 52.00, 4, 2016, "PUMA", FootballBootType.TUFF, 56.00);
-        item4 = new RubberDuck("Rubber Duck", 8.00, 2.00, 11.00, 5, 2017, 13.00, "Nurse Duck");
+        item = new FootballJersey("FootBall Jersey", 50.00, 5.00, 58.00, 5, 2013, "Manchester UTD", 60.00, LeagueJersey.ENGLISHPREMIRE);
+        item1 = new FootballJersey("FootBall Jersey", 50.00, 5.00, 60.00, 2, 2015, "GERMANY", 65.00, LeagueJersey.WORLDCUP);
+        item2 = new FootballBoot("Boots", 60.00, 3.00, 70.00, 8, 2017, "NIKE", 73.00, FootballBootType.OUTDOOR);
+        item3 = new FootballBoot("Boots", 47.00, 3.00, 52.00, 4, 2016, "ADIDAS", 56.00, FootballBootType.TUFF);
+        item4 = new RubberDuck("Rubber Duck", 8.00, 2.00, 11.00, 5, 2017, 13.00, "NURSE DUCK");
     }
 
 

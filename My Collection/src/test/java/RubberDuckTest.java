@@ -14,8 +14,8 @@ public class RubberDuckTest {
     }
 
     @Test
-    public void canGetDuckType(){
-        assertEquals("Donut Duck", rubberDuck.getDuckType());
+    public void canGetDuckName(){
+        assertEquals("Donut Duck", rubberDuck.getDuckName());
     }
 
     @Test

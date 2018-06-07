@@ -4,7 +4,7 @@ public class FootballBoot extends Item {
     private FootballBootType footballBootType;
 
 
-    public FootballBoot(String itemType, double buying, double shipping, double marketValue, int month, int year, String brand, FootballBootType footballBootType, double selling) {
+    public FootballBoot(String itemType, double buying, double shipping, double marketValue, int month, int year, String brand, double selling, FootballBootType footballBootType) {
         super(itemType, buying, shipping, marketValue, month, year, selling);
         this.brand = brand;
         this.footballBootType = footballBootType;

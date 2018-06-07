@@ -1,13 +1,13 @@
 public class RubberDuck extends Item{
-    private String duckType;
+    private String duckName;
 
-    public RubberDuck(String itemType, double buying, double shipping, double marketValue, int month, int year, double selling, String duckType){
+    public RubberDuck(String itemType, double buying, double shipping, double marketValue, int month, int year, double selling, String duckName){
         super (itemType, buying, shipping, marketValue, month, year, selling);
-        this.duckType = duckType;
+        this.duckName = duckName;
     }
 
-    public String getDuckType(){
-        return duckType;
+    public String getDuckName(){
+        return duckName;
     }
 
 
